@@ -1,0 +1,10 @@
+:root{
+    --font: 'Open Sans', sans-serif;
+    --red: #FF0000;
+    --white: #ffffff;
+    --bg-black: linear-gradient(180deg, #0C0E14 0%, #1C212D 100%);
+}
+
+body{
+    font-family: var(--font);
+}

@@ -1,0 +1,28 @@
+.video{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.video h3{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.video video{
+    color: transparent;
+    max-height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+    .video{
+        margin-top: 3em;
+    }
+    .video video{
+        max-height: auto;
+        width: 100%;
+    }
+}

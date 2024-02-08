@@ -1,0 +1,22 @@
+.footer{
+    align-items: center;
+    background: linear-gradient(180deg, #0C0E14 0%, #1C212D 100%);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em 0.5em;
+    text-align: center;
+}
+
+.footer img {
+    max-width: 150px;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer{
+        flex-direction: row;
+        gap: 5em;
+    }
+}
