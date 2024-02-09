@@ -58,6 +58,11 @@
     margin-top: 1em;
     padding: 0.5em 2.2em;
     margin-bottom: 2em;
+    transition: 0.2s;
+}
+
+.veiculos a:hover{
+    background-color: rgb(199, 3, 3);
 }
 
 @media screen and (min-width: 768px) {

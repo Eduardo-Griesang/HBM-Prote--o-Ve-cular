@@ -54,6 +54,17 @@
     margin-top: 2em;
     padding: 0.5em 2.2em;
     margin-bottom: 1em;
+    transition: 0.2s;
+}
+
+.clientes a:hover{
+    background-color: rgb(199, 3, 3);   
+}
+
+@media screen and (min-width: 768px) {
+    .clientes a{
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (min-width: 1024px) {

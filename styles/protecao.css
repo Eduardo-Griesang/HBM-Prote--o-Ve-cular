@@ -50,18 +50,8 @@
     line-height: 1.2em;
 }
 
-.logo-card{
-    display: none;
-}
-
 @media screen and (min-width: 1024px) {
     .protecao section{
         grid-template-columns: repeat(3, 1fr);;
-    }
-    .logo-card{
-        align-self: center;
-        display: block;
-        max-width: 70%;
-        justify-self: center;
     }
 }
